@@ -1,41 +1,163 @@
-body{
-  margin: 40px auto;
-  max-width: 650px;
-  line-height: 1.6;
-  color: #444;
-  font-size: 18px;
-  padding: 0 10px;
+/* FULL PAGE */
+
+html, body{
+  padding: 0;
+  margin: 0;
+  background-color: #FFFFFF;
+  font-family: arial, sans-serif;
 }
 
-h1,h2,h3{
-  line-height: 1.2;
+a{
+  text-decoration: none;
 }
 
-#fancyButton
-{
-    position: fixed;
-    top: 20px;
-    right: 20px;
+a:hover{
+  text-decoration: underline;
+}
+
+.flexbox{
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between
+}
+
+/* HEADER */
+
+.header{
+  /*width: 100%;*/
+  /*height: 10%;*/
+  margin-top: 15px;
+  display: flex;
+  justify-content: flex-end;
+  /*text-align: right;*/
+  flex-flow: row nowrap;
+  align-items: center;
+  color: #424242;
+  font-size: 13px;
+
+
+  /*margin-right: 25px;*/
+}
+
+.menu , .notif , .connexion_button , .header_link{
+  margin-right: 25px;
+
+}
+
+.header_link{
+  color: #424242;
+}
+
+.menu{
+  height: auto;
+  width: 23px;
+}
+ .connexion_button{
+   font-size: 13px;
+   height: 35px;
+   font-weight: bold;
+   background-color:#0080FF;
+   color:white;
+   border: solid;
+   vertical-align:baseline ;
+ }
+
+/* MAIN */
+
+.mainblock{
+  margin-top: 110px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+
+#Google {
+  width: 272px;
+  margin : 10px;
+}
+
+.searchbar{
+  box-shadow: 1px 1px 1px 1px #BDBDBD;
+  margin : 10px;
+}
+
+.searchbar:hover{
+  box-shadow: 1px 1px 3px 1px #BDBDBD;
+  margin : 10px;
+}
+
+.searchbar input {
+  width: 450px;
+  height: 40px;
+}
+
+.main_button{
+  margin : 10px;
+  border : none;
+  font-size: 13px;
+  color: rgba(0, 0, 0, 0.54);
+  height: 35px;
+  font-weight: bold;
+
+}
+
+#google_offered{
+  font-size: 13px;
 }
 
 
-/* Définition du bodystandard et bodyfancy pour permettre au javascript de changer toute l'apparence du site en changeant juste la class du body*/
+/* FOOTER */
 
-.bodyStandard{}
+.footer{
+  width: 100%;
+  background-color: #F2F2F2;
+  bottom: 0px;
 
-.bodyFancy{
-  background-color: magenta;
+
 }
 
-.bodyFancy p{
-  color: blue;
-  font-family: "Papyrus EBO", serif;
+.first_row{
+  font-size: 15px;
+  color: rgba(0, 0, 0, 0.54);
+  line-height: 40px;
+  border: 1px solid #D8D8D8;
 }
 
-.bodyFancy h1,h2,h3{
-  color: green;
+.France{
+  margin-left: 25px;
 }
 
-.bodyFancy header{
-  font-family: "Comic Sans MS", serif;
+
+.second_row{
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  font-size: 13px;
+  line-height: 40px;
 }
+
+.left{
+  color: rgb(102, 102, 102);
+  /*vertical-align: baseline;*/
+  display: flex;
+}
+
+.right{
+  color: rgb(102, 102, 102);
+  /*vertical-align: baseline;*/
+  display: flex;
+}
+
+.right_footer_link , .left_footer_link{
+  color: rgb(102, 102, 102);
+  vertical-align: center;
+}
+
+.right_footer_link{
+  margin-right: 25px;
+}
+.left_footer_link{
+  margin-left: 25px;
+ }
