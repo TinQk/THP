@@ -1,5 +1,7 @@
-THP jour 2 : copie de la page d'accueil Google
+#https://tinqk.github.io/THP/
 
-Participants :
-Andréa Palma
+##THP jour 2 : copie de la page d'accueil Google
+
+Participants :<br>
+Andréa Palma<br>
 Quentin Potié
